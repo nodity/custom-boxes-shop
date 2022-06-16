@@ -1,0 +1,39 @@
+$text-color: #011f3a;
+
+.start-page-text {
+    margin-left: 120px;
+    & h1 {
+        width: 480px;
+        margin-top: 77px;
+        font-size: 48px;
+        font-weight: normal;
+        color: $text-color;
+    }
+
+    & p {
+        width: 277px;
+        color: $text-color;
+        margin-top: 33px;
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 24px;
+        margin-bottom: 33px;
+    }
+
+    & a {
+        background-color: #3d5675;
+        border-radius: 100px;
+        padding: 20px 30px;
+        border: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1.96px;
+        color: #fff;
+        font-size: 14px;
+
+        &:hover {
+            transition: 0.1s;
+            background-color: #233142;
+        }
+    }
+}

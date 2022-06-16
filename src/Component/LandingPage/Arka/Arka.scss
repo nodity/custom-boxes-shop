@@ -1,0 +1,36 @@
+.arka-advantage {
+    & h2 {
+        font-weight: bold;
+        font-size: 32px;
+        color: #011F3A;
+    }
+
+    & .arka-advantage-content {
+
+        & .arka-advantage-content-item {
+
+            text-align: center;
+
+            & img {
+                width: 254px;
+                height: 254px;
+            }
+
+            & h3 {
+                color: #011F3A;
+                font-weight: bold;
+                font-size: 18px;
+                letter-spacing: 0.36px;
+            }
+
+            & p {
+                margin-top: 12px;
+                line-height: 24px;
+                font-size: 15px;
+                font-weight: normal;
+                color: #A1A1A1;
+            }
+        }
+
+    }
+}

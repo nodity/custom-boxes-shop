@@ -1,0 +1,25 @@
+.arka-advantage h2 {
+  font-weight: bold;
+  font-size: 32px;
+  color: #011F3A;
+}
+.arka-advantage .arka-advantage-content .arka-advantage-content-item {
+  text-align: center;
+}
+.arka-advantage .arka-advantage-content .arka-advantage-content-item img {
+  width: 254px;
+  height: 254px;
+}
+.arka-advantage .arka-advantage-content .arka-advantage-content-item h3 {
+  color: #011F3A;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 0.36px;
+}
+.arka-advantage .arka-advantage-content .arka-advantage-content-item p {
+  margin-top: 12px;
+  line-height: 24px;
+  font-size: 15px;
+  font-weight: normal;
+  color: #A1A1A1;
+}

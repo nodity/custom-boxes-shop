@@ -1,0 +1,32 @@
+.shop-stock-block {
+    padding-top: 46px;
+    text-align: center;
+    padding-bottom: 120px;
+
+    & span {
+        color: #a1a1a1;
+        font-weight: bold;
+        font-size: 15px;
+        margin-right: 16px;
+    }
+
+    & a {
+        border: none;
+        outline: none;
+        background-color: #fff;
+        padding: 13px 25px;
+        border-radius: 100px;
+        text-decoration: none;
+        color: #3d5675;
+        text-transform: uppercase;
+        letter-spacing: 1.96px;
+        font-size: 14px;
+        font-weight: bold;
+
+        &:hover {
+            transition: .1s;
+            background-color: #3d5675;
+            color: #fff;
+        }
+    }
+}

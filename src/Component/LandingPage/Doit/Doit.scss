@@ -1,0 +1,50 @@
+.doit-content {
+    text-align: center;
+
+    & h3 {
+        font-weight: bold;
+        font-size: 31px;
+        color: #011f3a;
+        margin-bottom: 55px;
+    }
+
+    & a {
+        &:nth-child(1) {
+            margin-right: 36px;
+            background-color: #3d5675;
+            border-radius: 100px;
+            padding: 13px 25px;
+            border: none;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1.96px;
+            color: #fff;
+            font-size: 14px;
+
+            &:hover {
+                transition: 0.1s;
+                background-color: #233142;
+            }
+        }
+
+        &:nth-child(2) {
+            border: none;
+            outline: none;
+            background-color: #fff;
+            padding: 13px 25px;
+            border-radius: 100px;
+            text-decoration: none;
+            color: #3d5675;
+            text-transform: uppercase;
+            letter-spacing: 1.96px;
+            font-size: 14px;
+            font-weight: bold;
+
+            &:hover {
+                transition: 0.1s;
+                background-color: #3d5675;
+                color: #fff;
+            }
+        }
+    }
+}

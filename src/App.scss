@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+$start-page-color: #F2AE4D;
+$main-page-background: #EDEDED;
+
+.start-page {
+    padding-top: 88px;
+    padding-bottom: 97px;
+    background-color: $start-page-color;
+}
+
+.certified-block {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.customize-product-block {
+    background-color: $main-page-background;
+}
+
+.start-design-block {
+    padding-top: 88px;
+    background-color: #72BDA3;
+}
+
+.arka-block {
+    padding-top: 88px;
+    background-color: $main-page-background;
+    padding-bottom: 142px;
+}
+
+.request-block {
+    background-color: #FFCA3A;
+}
+
+.doit-block {
+    padding-bottom: 150px;
+    padding-top: 120px;
+    background-color: $main-page-background;
+}
+
+.footer-block {
+    padding-top: 60px;
+    background-color: #fff;
+}

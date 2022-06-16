@@ -1,0 +1,37 @@
+.start-design h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: normal;
+  color: #011F3A;
+}
+.start-design .start-design-item {
+  text-align: center;
+}
+.start-design .start-design-item h4 {
+  margin-top: 12px;
+}
+.start-design .start-design-item span {
+  width: 152px;
+  margin-top: 10px;
+}
+.start-design .call-to-action {
+  text-align: center;
+  margin-top: 89px;
+  margin-bottom: 101px;
+}
+.start-design a {
+  background-color: #3d5675;
+  border-radius: 100px;
+  padding: 13px 25px;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1.96px;
+  color: #fff;
+  font-size: 14px;
+}
+.start-design a:hover {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  background-color: #233142;
+}

@@ -1,0 +1,35 @@
+.start-page-text {
+  margin-left: 120px;
+}
+.start-page-text h1 {
+  width: 480px;
+  margin-top: 77px;
+  font-size: 48px;
+  font-weight: normal;
+  color: #011f3a;
+}
+.start-page-text p {
+  width: 277px;
+  color: #011f3a;
+  margin-top: 33px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  margin-bottom: 33px;
+}
+.start-page-text a {
+  background-color: #3d5675;
+  border-radius: 100px;
+  padding: 20px 30px;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1.96px;
+  color: #fff;
+  font-size: 14px;
+}
+.start-page-text a:hover {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  background-color: #233142;
+}

@@ -1,0 +1,27 @@
+.browse-all {
+  padding-top: 57px;
+  padding-bottom: 57px;
+}
+.browse-all h2 {
+  font-size: 32px;
+  font-weight: normal;
+  color: #011f3a;
+}
+.browse-all a {
+  border: none;
+  outline: none;
+  background-color: #3d5675;
+  border-radius: 100px;
+  padding: 15px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1.96px;
+  color: #fff;
+}
+.browse-all a:hover {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  background-color: #233142;
+}

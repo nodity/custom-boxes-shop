@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.header-row {
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+.header-row .logo {
+  margin-left: 25px;
+}
+.header-row .menu-links {
+  text-align: center;
+}
+.header-row .menu-links a {
+  font-weight: 500;
+  padding-bottom: 3px;
+  color: #011f3a;
+  margin-right: 50px;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1.96px;
+}
+.header-row .menu-links a:hover {
+  border-bottom: 1px solid #011f3a;
+}
+.header-row .account a {
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #011f3a;
+  letter-spacing: 1.96px;
+  margin-right: 25px;
+}
+.header-row .account a:nth-child(1):hover {
+  border-bottom: 1px solid #011f3a;
+}
+.header-row .account img {
+  width: 24px;
+  height: 24px;
+}
