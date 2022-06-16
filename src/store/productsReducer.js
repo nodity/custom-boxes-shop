@@ -4,6 +4,7 @@ import poly from './../img/poly.png';
 import tape from './../img/tape.png';
 import stickers from './../img/stickers.png';
 import paper from './../img/paper.png';
+import product1 from './../img/product1.png';
 
 let initialState = {
     products: [
@@ -13,6 +14,8 @@ let initialState = {
         {id: 4, img: tape, name: 'Custom Tape', price: 12.16, desc: 'High quality custom tape to seal your shipping boxes during delivery.'},
         {id: 5, img: stickers, name: 'Custom Stickers', price: 0.41, desc: 'Add personality to your packages with custom stickers.'},
         {id: 6, img: paper, name: 'Custom Tissue Paper', price: 6.54, desc: 'The perfect addition to branding your package.'},
+        {id: 7, img: product1, name: 'Custom Tissue Paper (Lite)', price: 3.54, desc: 'High quality custom tape to seal your shipping boxes during delivery.'},
+        {id: 8, img: product1, name: 'Custom Tissue Paper (Lite++)', price: 4.54, desc: 'The perfect addition to branding your package.'},
     ]
 }
 

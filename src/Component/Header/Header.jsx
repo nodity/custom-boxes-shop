@@ -2,7 +2,7 @@ import React from "react"
 import logo from './../../img/logo.png';
 import cart from './../../img/cart.png';
 import './Header.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Header = (props) => {
     return (
@@ -17,8 +17,14 @@ const Header = (props) => {
                 <Link to="#">About</Link>
             </div>
             <div className="col-sm account ">
-                <Link to="#">Account</Link>
-                <Link to="#"><img src={cart} alt="" /></Link>
+                {!props.isLogIn
+                    ? <Link to="/login">Login</Link>
+                    : <Link to="/cart"><img src={cart} alt="" /></Link>
+                }
+                {props.isLogIn &&
+                    <Link onClick={props.setLogout} to="/">Logout</Link>
+                }
+
             </div>
         </div>
     )

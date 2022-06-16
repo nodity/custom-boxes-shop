@@ -8,7 +8,6 @@ import StartDesign from './StartDesign/StartDesign';
 import Arka from './Arka/Arka';
 import Request from './Request/Request';
 import Doit from './Doit/Doit';
-import Footer from './Footer/Footer';
 
 const LandingPage = (props) => {
     return (
@@ -46,11 +45,6 @@ const LandingPage = (props) => {
             <div className="container-fluid doit-block">
                 <div className="container">
                     <Doit />
-                </div>
-            </div>
-            <div className="container-fluid footer-block">
-                <div className="container">
-                    <Footer />
                 </div>
             </div>
         </div>

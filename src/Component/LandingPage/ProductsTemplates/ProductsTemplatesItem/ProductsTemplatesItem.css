@@ -5,8 +5,8 @@
   margin-right: 2px;
   margin-bottom: 2px;
 }
-.products-templates-item img {
-  width: 398px;
+.products-templates-item .product-img {
+  width: 350px;
 }
 .products-templates-item .products-templates-item-desc {
   padding: 25px;

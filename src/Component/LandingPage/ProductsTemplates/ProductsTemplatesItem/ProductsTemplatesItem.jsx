@@ -6,7 +6,7 @@ const ProductsTemplatesItem = (props) => {
         <div className="products-templates-item">
             <div className="row">
                 <div className="col-sm">
-                    <a href="#"><img src={props.img} alt="" /></a>
+                    <a href="#"><img className="product-img" src={props.img} alt="" /></a>
                 </div>
             </div>
             <div className="products-templates-item-desc">

@@ -1,5 +1,6 @@
 import React from "react"
 import './BrowseAll.css'
+import { Link } from 'react-router-dom'
 
 const BrowseAll = (props) => {
     return (
@@ -8,7 +9,7 @@ const BrowseAll = (props) => {
                 <h2>Products you can customize</h2>
             </div>
             <div className="col-sm" align='right'>
-               <a href="#">Browse all products</a>
+                <Link to="/products">Browse all products</Link>
             </div>
         </div>
     )

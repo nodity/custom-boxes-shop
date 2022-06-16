@@ -1,0 +1,56 @@
+.login-page h1 {
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.96px;
+  font-weight: normal;
+  color: #011f3a;
+  margin-bottom: 50px;
+}
+.login-page .login-form {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #fbfbfb;
+  text-align: center;
+  border-left: 2px solid #011f3a;
+  border-right: 2px solid #011f3a;
+}
+.login-page .login-form .password-field {
+  margin-top: 25px;
+}
+.login-page .login-form span {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.login-page .login-form .submit-button {
+  margin-top: 50px;
+  outline: none;
+  border: none;
+  background-color: #3d5675;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  padding: 15px 150px;
+  border-radius: 100px;
+}
+.login-page .login-form .submit-button:hover {
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  background-color: #233142;
+}
+.login-page .login-form input {
+  outline: none;
+  border-color: #3d5675;
+  border-radius: 100px;
+  padding-left: 18px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 182px;
+  margin-bottom: 12px;
+  margin-top: 13px;
+}
+.login-page .login-form input::-webkit-input-placeholder {
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  font-style: italic;
+}

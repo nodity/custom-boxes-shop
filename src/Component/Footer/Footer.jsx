@@ -1,8 +1,9 @@
 import React from "react"
-import logo from './../../../img/logo.png'
-import facebook from './../../../img/facebook.png'
-import twitter from './../../../img/twitter.png'
-import insta from './../../../img/insta.png'
+import logo from './../../img/logo.png'
+import facebook from './../../img/facebook.png'
+import twitter from './../../img/twitter.png'
+import insta from './../../img/insta.png'
+import { Link } from "react-router-dom"
 
 
 import './Footer.css'
@@ -17,7 +18,7 @@ const Footer = (props) => {
             <div className="col-sm">
                 <ol>
                     <li><a href="#">Custom Design</a></li>
-                    <li><a href="#">All Products</a></li>
+                    <li><Link to="#/products">All Products</Link></li>
                     <li><a href="#">Inspiration</a></li>
                     <li><a href="#">Sustainability</a></li>
                     <li><a href="#">Affiliate Program</a></li>
@@ -37,9 +38,9 @@ const Footer = (props) => {
             </div>
             <div className="col-sm">
                 <ol>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Shopify App</a></li>
+                    <li><a href="#">14 Day Free Shopify Trial</a></li>
+                    <li><a href="#">BigCommerce</a></li>
                     <li>
                         <a href="#"><img src={facebook} alt="" /></a>
                         <a href="#"><img src={twitter} alt="" /></a>
