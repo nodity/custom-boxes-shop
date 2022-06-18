@@ -11,7 +11,6 @@ const Login = (props) => {
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
         if ((data.username == props.profile.username) && (data.password == props.profile.password)) {
-            debugger;
             props.setAuth()
         }
     };

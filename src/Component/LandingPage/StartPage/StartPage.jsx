@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import start from './../../../img/start-page-img.png'
 import './StartPage.css'
 
 const StartPage = (props) => {
+    
     return (
         <div className="row">
             <div className="col-sm start-page-text">

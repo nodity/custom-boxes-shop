@@ -43,7 +43,7 @@
   font-size: 15px;
   font-style: italic;
 }
-.footer-content button {
+.footer-content .submit-button {
   outline: none;
   border: none;
   background-color: #3d5675;
@@ -53,7 +53,7 @@
   padding: 11px 36px;
   border-radius: 100px;
 }
-.footer-content button:hover {
+.footer-content .submit-button:hover {
   -webkit-transition: 0.1s;
   transition: 0.1s;
   background-color: #233142;

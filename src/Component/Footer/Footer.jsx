@@ -4,26 +4,33 @@ import facebook from './../../img/facebook.png'
 import twitter from './../../img/twitter.png'
 import insta from './../../img/insta.png'
 import { Link } from "react-router-dom"
+import { useForm } from "react-hook-form";
 
 
 import './Footer.css'
 
 
 const Footer = (props) => {
+
+    const { register, handleSubmit } = useForm();
+    const onSubmit = data => {
+        props.addMail(data.mail)
+    };
+
     return (
         <div className="row footer-content">
             <div className="col-sm">
-                <a href="#"><img src={logo} alt="" /></a>
+                <Link to="/"><img src={logo} alt="" /></Link>
             </div>
             <div className="col-sm">
                 <ol>
-                    <li><a href="#">Custom Design</a></li>
-                    <li><Link to="#/products">All Products</Link></li>
-                    <li><a href="#">Inspiration</a></li>
-                    <li><a href="#">Sustainability</a></li>
-                    <li><a href="#">Affiliate Program</a></li>
-                    <li><a href="#">Request Custom Quote</a></li>
-                    <li><a href="#">Request Dieline</a></li>
+                    <li><Link to="#">Custom Design</Link></li>
+                    <li><Link to="/products">All Products</Link></li>
+                    <li><Link to="#">Inspiration</Link></li>
+                    <li><Link to="#">Sustainability</Link></li>
+                    <li><Link to="#">Affiliate Program</Link></li>
+                    <li><Link to="#">Request Custom Quote</Link></li>
+                    <li><Link to="#">Request Dieline</Link></li>
                 </ol>
             </div>
             <div className="col-sm">
@@ -50,8 +57,10 @@ const Footer = (props) => {
             </div>
             <div className="col-sm">
                 <span>Get exclusive offers and tips.</span>
-                <input placeholder="Your email" type="text" />
-                <button>Join instantly</button>
+                <form onSubmit={handleSubmit(onSubmit)}>
+                    <input {...register('mail', {required: true, pattern: /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/})} placeholder="Your email" type="text" />
+                    <input className="submit-button" type="submit" value='Join instantly' />
+                </form>
             </div>
         </div>
     )

@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import StartPage from './StartPage/StartPage'
 import Certified from './Certified/Certified';
 import BrowseAll from './BrowseAll/BrowseAll';
@@ -10,6 +10,11 @@ import Request from './Request/Request';
 import Doit from './Doit/Doit';
 
 const LandingPage = (props) => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <div className="">
             <div className="container-fluid start-page">

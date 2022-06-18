@@ -1,10 +1,11 @@
-import React from "react"
+import React, { useEffect } from "react"
 import logo from './../../img/logo.png';
 import cart from './../../img/cart.png';
 import './Header.css';
 import { Link } from 'react-router-dom';
 
 const Header = (props) => {
+
     return (
         <div className="row header-row align-items-center">
             <div className="col-sm logo">
@@ -19,7 +20,7 @@ const Header = (props) => {
             <div className="col-sm account ">
                 {!props.isLogIn
                     ? <Link to="/login">Login</Link>
-                    : <Link to="/cart"><img src={cart} alt="" /></Link>
+                    : <Link to="/cart"><span>{props.profile.cart.length}</span><img src={cart} alt="" /></Link>
                 }
                 {props.isLogIn &&
                     <Link onClick={props.setLogout} to="/">Logout</Link>

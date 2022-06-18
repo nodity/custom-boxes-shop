@@ -1,12 +1,13 @@
 import React from "react"
 import './ProductsTemplatesItem.css'
+import { Link } from "react-router-dom"
 
 const ProductsTemplatesItem = (props) => {
     return (
         <div className="products-templates-item">
             <div className="row">
                 <div className="col-sm">
-                    <a href="#"><img className="product-img" src={props.img} alt="" /></a>
+                    <Link to={'/products/' + props.id}><img className="product-img" src={props.img} alt="" /></Link>
                 </div>
             </div>
             <div className="products-templates-item-desc">

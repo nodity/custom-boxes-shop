@@ -5,7 +5,7 @@ const ProductsTemplates = (props) => {
 
 
     const ProductsTemplatesItemElements = props.products.map(e => (
-        e.id < 7 ? <ProductsTemplatesItem id={e.id} name={e.name} img={e.img} price={e.price} desc={e.desc}/> : <div></div>
+        e.id < 6 ? <ProductsTemplatesItem id={e.id} name={e.name} img={e.img} price={e.price} desc={e.desc}/> : <div></div>
     ))
 
     return (

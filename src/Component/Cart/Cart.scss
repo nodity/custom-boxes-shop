@@ -1,0 +1,27 @@
+.cart-page {
+    margin-top: 50px;
+    text-align: center;
+
+    & .empty-cart {
+        font-size: 36px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    & .order-button {
+        margin-top: 30px;
+        outline: none;
+        border: none;
+        background-color: #3d5675;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        padding: 22px 150px;
+        border-radius: 100px;
+
+        &:hover {
+            transition: 0.1s;
+            background-color: #233142;
+        }
+    }
+}
