@@ -3,6 +3,7 @@ import './StartDesign.css'
 import order from './../../../img/order.png'
 import proof from './../../../img/proof.png'
 import print from './../../../img/print.png'
+import { Link } from "react-router-dom"
 
 const StartDesign = (props) => {
     return (
@@ -31,7 +32,7 @@ const StartDesign = (props) => {
             </div>
             <div className="row call-to-action">
                 <div className="col-sm">
-                    <a href="#">Start your design</a>
+                    <Link to="/products">All products</Link>
                 </div>
             </div>
         </div>

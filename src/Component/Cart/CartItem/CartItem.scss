@@ -28,6 +28,13 @@
 
     & .product-count {
         font-weight: bold;
+
+        & .per-unit-price {
+            margin-left: 5px;
+            font-size: 14px;
+            color: rgb(126, 126, 126);
+        }
+
     }
 
     & button {

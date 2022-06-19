@@ -12,7 +12,6 @@ const Header = (props) => {
                 <Link to="/"><img src={logo} alt="" /></Link>
             </div>
             <div className="col-sm-9 menu-links">
-                <Link to="#">Start your design</Link>
                 <Link to="/products">All products</Link>
                 <Link to="#">Inspiration</Link>
                 <Link to="#">About</Link>

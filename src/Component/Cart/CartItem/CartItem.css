@@ -25,6 +25,11 @@
 .cart-item .product-count {
   font-weight: bold;
 }
+.cart-item .product-count .per-unit-price {
+  margin-left: 5px;
+  font-size: 14px;
+  color: rgb(126, 126, 126);
+}
 .cart-item button {
   border: none;
 }

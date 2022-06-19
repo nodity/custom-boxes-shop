@@ -25,7 +25,7 @@ const CartItem = (props) => {
                 <span className="product-count">{props.count}</span>
             </div>
             <div className="col-sm">
-                <span className="product-count">${+(props.price * props.count).toFixed(2)}</span>
+                <span className="product-count">${+(props.price * props.count).toFixed(2)} <span className="per-unit-price">(${props.price}/unit)</span> </span>
             </div>
             <div className="col-sm">
                 <button onClick={removeFromCart}><img src={cross} alt="" /></button>

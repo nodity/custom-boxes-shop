@@ -12,7 +12,6 @@ const Doit = (props) => {
             </div>
             <div className="row">
                 <div className="col-sm">
-                    <Link to="#">Start your design</Link>
                     <Link to="/products">Browse all products</Link>
                 </div>
             </div>
